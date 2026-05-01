@@ -1,8 +1,0 @@
-[phases.build]
-cmds = ["composer install --no-dev --optimize-autoloader"]
-
-[start]
-cmd = "php artisan migrate --force --seed && php artisan storage:link && php -S 0.0.0.0:$PORT -t public"
-
-[variables]
-PHP_VERSION = "8.2"
