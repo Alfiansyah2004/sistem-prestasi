@@ -4,7 +4,7 @@
     "description": "Sistem Informasi Prestasi Siswa",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "barryvdh/laravel-dompdf": "^2.0",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "9.52.*",
